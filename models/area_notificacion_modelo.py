@@ -56,12 +56,12 @@ class AreaNotificacionesModelo():
              # Configuración del servidor SMTP
             smtp_server = 'smtp.office365.com'
             smtp_port = 587  # Puerto para TLS
-            smtp_username = 'jctrujillop@ul.edu.co'
-            smtp_password = 'Kup54232'
+            smtp_username = ''
+            smtp_password = ''
 
             # Configuración del correo electrónico
-            from_address = 'jctrujillop@ul.edu.co'
-            to_address = '00zacks00@gmail.com'
+            from_address = ''
+            to_address = ''
             subject = f"[NOTIFICACIÓN DE COOMEVA] {asunto} de medicamentos"
             body = f'''
 Hola, se te informa que ya puedes hacer el retiro de tu medicina, acá está los detalles:
